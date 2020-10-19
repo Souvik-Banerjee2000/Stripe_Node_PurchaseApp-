@@ -1,0 +1,18 @@
+{
+  "name": "ebook_seller",
+  "version": "1.0.0",
+  "description": "Ebook Seller Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Souvik Banerjee",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "nodemon": "^2.0.5",
+    "stripe": "^8.114.0"
+  }
+}
